@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.Header {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 6vh;
+}
+
+.Header-Img {
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 40px;
+}
+
+.Header-Text {
+  font-size: x-large;
+  color: #1f1f1f;
+}
