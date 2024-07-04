@@ -2,12 +2,15 @@ import './App.css';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
-import Welcome from './Components/Welcome';
-import Register from './Components/Register';
-import Login from './Components/Login';
+import Welcome from './Pages/Welcome';
+import Register from './Pages/Register';
+import Login from './Pages/Login';
+import Blog from './Pages/Blog';
+import Single from './Pages/Single';
 
 
 function Layout() {
+  
   return (
     <>
       <Header />
@@ -35,6 +38,14 @@ const router = createBrowserRouter([
         element: <Login />
       },
       {
+        path: '/web-journal/user/:user',
+        element: <Blog />
+      },
+      {
+        path: '/web-journal/user/:user/:id',
+        element: <Single />
+      },
+      {
         path: '/web-journal/test',
         element: <div>This is a test page.</div>
       }
@@ -43,6 +54,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  
   return (
     <div className="App">
       <div className="container">
