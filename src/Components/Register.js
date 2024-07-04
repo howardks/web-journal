@@ -23,7 +23,7 @@ function Register() {
                 <input />
             </div>
             <div>
-                <button>Submit</button>
+                <button className="Submit-Button">Submit</button>
             </div>
         </div>
     )

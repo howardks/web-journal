@@ -73,6 +73,17 @@
   justify-content: space-between;
 }
 
+input {
+  border: 1px solid #1f1f1f;
+  border-radius: 4px;
+}
+
+.Submit-Button {
+  border: 1px solid #1f1f1f;
+  border-radius: 4px;
+  padding: 3px 8px 2px 8px;
+}
+
 #Register-Div {
   width: 340px;
   margin-left: auto;
