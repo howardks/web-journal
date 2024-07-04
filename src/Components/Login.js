@@ -1,7 +1,18 @@
 function Login() {
     return (
-        <div>
-            Login Page Under Construction
+        <div id="Login-Div">
+            <div className="Input-Header">Login</div>
+            <div className="Input-Div">
+                Username: 
+                <input />
+            </div>
+            <div className="Input-Div">
+                Password: 
+                <input type="password" />
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
         </div>
     )
 }
