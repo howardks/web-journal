@@ -3,13 +3,6 @@
   color: #1f1f1f;
 }
 
-#Logo-Div {
-  text-align: left;
-  display: flex;
-  align-items: center;
-  height: 6vh;
-}
-
 .Header-Img {
   padding-left: 8px;
   padding-right: 8px;
@@ -18,19 +11,33 @@
 
 .Header-Text {
   font-size: x-large;
-  color: #1f1f1f;
+}
+
+.Header {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 4px solid #1f1f1f;
+  margin-bottom: 2vh;
+}
+
+#Navbar-Brand {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  justify-content: space-between;
 }
 
 #Navbar {
   font-size: medium;
   display: flex;
-  border-top: 2px solid #1f1f1f;
-  border-bottom: 2px solid #1f1f1f;
-  justify-content: space-evenly;
-  height: 4vh;
+  justify-content: space-between;
   align-items: center;
-  background-color: #1f1f1f;
-  margin-bottom: 1vh;
+  padding-left: 8px;
+  padding-right: 8px;
+  gap: 10px;
 }
 
 #Navbar button {
@@ -38,7 +45,7 @@
   border-radius: 6px;
   font-size: medium;
   width: 10em;
-  padding: 1%;
+  padding-top: 1%;
   background-color: white;
   color: #1f1f1f;
 }
